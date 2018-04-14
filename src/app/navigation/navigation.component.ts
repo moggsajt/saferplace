@@ -10,9 +10,9 @@ export class NavigationComponent implements OnInit {
 
   navItemsEmergency: NavigationItem[] = [
     {iconclass: 'fa-bell emergency', title: 'Alarms', text: 'List of alarms', url: 'alarms', notify: false},
-    {iconclass: 'fa-wheelchair emergency', title: 'Aid and relief', text: 'Aid an relief', url: 'aid', notify: false},
+    {iconclass: 'fa-ambulance emergency', title: 'Aid and relief', text: 'Aid an relief', url: 'aid', notify: false},
     {iconclass: 'fa-bullseye emergency', title: 'POI', text: 'Points of interest', url: 'poi', notify: false},
-    {iconclass: 'fa-bullhorn emergency', title: 'Navigation', text: 'Navigate to places', url: 'navigate', notify: false}
+    {iconclass: 'fa-map-marker emergency', title: 'Navigation', text: 'Navigate to places', url: 'navigate', notify: false}
   ]
 
   navItemsNormal: NavigationItem[] = [
