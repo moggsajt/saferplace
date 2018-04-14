@@ -11,7 +11,6 @@
             "type": "Feature",
             "properties": {
                 "type": "event",
-                "ingress": "<strong>Welcome to SWEDEN motherfuckers!</strong><br />The shit has hit the fan, time to leave this circle.",
                 "html": "<p>An explosion occurred in a café on Birger Jarlsgatan in central Stockholm. An unknown number of fatalities have been reported and a large number of people have been injured. </p><p>The event is categorized as a terrorist assault and the Security police handles the event as an ongoing attack. The security police awaits further attacks and advises the public to put themselves into safety. A number of gathering sites is being established in the immediate area. </p><p>Do you have medical experience? Rescue services needs your help. </p><p>The security police and police cooperate in the investigation with other countries' police organizations, Europol, Interpol and with other Swedish authorities. </p><p>If you have any tips about the attack, call the police at phone number <a href=\"tel:11414\">114 14</a></p>"
             },
             "geometry": {
