@@ -3,4 +3,9 @@
     <div>{{navItemsProfiles.phone_number}}</div>
   <div>{{navItemsProfiles.email}}</div>
   <div>{{navItemsProfiles.notes}}</div>
+  <ul>
+    <li *ngFor="let role of navItemsProfiles.roles">
+      {{role.name}}
+    </li>
+  </ul>
 </div>

@@ -3,6 +3,6 @@ export class ProfileItem {
   second_name: string;
   phone_number: string;
   email: string;
-  roles_id: string;
   notes: string;
+  roles: RoleName[];
 }
