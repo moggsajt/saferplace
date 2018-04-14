@@ -32,7 +32,7 @@ export class MyprofileComponent implements OnInit {
     this.navItemsProfiles = [];
 
     var x = new XMLHttpRequest();
-    x.open("GET", "http://hack4sweden.vwc.se/rest/list", true);
+    x.open("GET", "http://hack4sweden.vwc.se/rest/person/1", true);
 
     var xThis = this;
     x.onload = function(event) {

@@ -1,6 +1,8 @@
-<p>
-  myprofile works!
-</p>
-
 <div class="profiles">
+  <safe-myprofile *ngFor="let profile of navItemsProfiles"
+
+             class="col-lg-6 col-md-6 mb-4">
+    <h1>{{profile.first_name}}</h1>
+    <h1>{{profile.second_name}}</h1>
+  </safe-myprofile>
 </div>
