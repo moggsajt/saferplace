@@ -1,0 +1,10 @@
+<div class="row round">
+
+  <safe-card *ngFor="let nav of navItemsEmergency" [navItem]="nav"
+             class="col-lg-6 col-md-6 mb-4">
+  </safe-card>
+
+  <safe-card *ngFor="let nav of navItemsNormal" [navItem]="nav"
+             class="col-lg-6 col-md-6 mb-4">
+  </safe-card>
+</div>
