@@ -1,7 +1,6 @@
+![asdf](/doc/logo.png)
 # A Safe Place
 _together we keep eachother sage_
-
-(/doc/logo.png)
 
 ## Overview
 In the decade of 2010 terror began to become an seemingly larger and larger problem across european cities.  
@@ -93,4 +92,4 @@ Through this function PPDR personnel will be able to mobilize civilian aid, if a
 
 
 ## Architecture overview
-(/doc/architecture.png)
+![Image of Architecture overview](/doc/architecture.png)
