@@ -1,11 +1,70 @@
-.centerWrapper:before {
-  content:'';
-  height: 100%;
+.icon-box {
+  display: block;
+  width: 5em;
+  height: 10em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.icon-box:before {
+  content: '';
   display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.icon-box i {
+  font-size: 4em;
+  margin: auto;
+  text-align: center;
   vertical-align: middle;
 }
 
-.center {
-  display:inline-block;
-  vertical-align: middle;
+.container div:last-child {
+  margin-right: 0;
+}
+
+.emergency {
+  color: #9e0505;
+}
+
+.normal {
+  color: green;
+}
+
+.card-body {
+  background-color: #2e2e2e!important;
+}
+
+a {
+  color: #f0f3f5;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover .emergency {
+  color: #998899;
+}
+
+a:hover .normal {
+  color: #65806d;
+}
+
+.overlay {
+  background: -moz-linear-gradient(-45deg,  rgba(201,201,201,0.65) 0%, rgba(178,178,178,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(201,201,201,0.65) 0%,rgba(178,178,178,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(201,201,201,0.65) 0%,rgba(178,178,178,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c9c9c9', endColorstr='#00b2b2b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a:hover .overlay {
+  background: -moz-linear-gradient(-45deg,  rgba(178,178,178,0) 0%, rgba(201,201,201,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(178,178,178,0) 0%, rgba(201,201,201,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(178,178,178,0) 0%, rgba(201,201,201,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c9c9c9', endColorstr='#00b2b2b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }

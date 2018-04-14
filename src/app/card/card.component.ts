@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {NavigationItem} from "../model/navigationItem";
 
 @Component({
   selector: 'safe-card',
@@ -8,10 +9,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input()
-  heading: string;
-
-  @Input()
-  text: string;
+  navItem: NavigationItem;
 
   constructor() { }
 
