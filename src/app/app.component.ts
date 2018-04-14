@@ -11,7 +11,7 @@ export class AppComponent {
 
   navItemsEmergency: NavigationItem[] = [
     {iconclass: 'fa-bell emergency', title: 'Alarms', text: 'List of alarms'},
-    {iconclass: 'fa-wheelchair emergency', title: 'Stjärt', text: 'Stjärt'},
+    {iconclass: 'fa-wheelchair emergency', title: 'My Profile', text: 'My Profile'},
     {iconclass: 'fa-bullseye emergency', title: 'POI', text: 'Points of interest'},
     {iconclass: 'fa-bullhorn emergency', title: 'Navigation', text: 'Navigate to places'}
   ]
