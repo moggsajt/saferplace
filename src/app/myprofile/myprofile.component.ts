@@ -26,10 +26,10 @@ export class MyprofileComponent implements OnInit {
 
   constructor() { }
 
-  navItemsProfiles: ProfileItem[] ;
+  navItemsProfiles: ProfileItem ;
 
   ngOnInit() {
-    this.navItemsProfiles = [];
+    this.navItemsProfiles;
 
     var x = new XMLHttpRequest();
     x.open("GET", "http://hack4sweden.vwc.se/rest/person/1", true);
@@ -41,7 +41,7 @@ export class MyprofileComponent implements OnInit {
 
         for (var key in result) {
           var profile = result[key];
-          xThis.navItemsProfiles.push(profile);
+          xThis.navItemsProfiles = profile;
         }
       }
     };
