@@ -3,4 +3,5 @@ export class NavigationItem {
   iconclass: string;
   text: string;
   url: string;
+  notify: boolean = false;
 }

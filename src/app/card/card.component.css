@@ -68,3 +68,54 @@ a:hover .overlay {
   background: linear-gradient(135deg, rgba(178,178,178,0) 0%, rgba(201,201,201,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c9c9c9', endColorstr='#00b2b2b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+@keyframes notify-color {
+  0%   {
+    background-color: red;
+  }
+  25%  {
+    background-color: red;
+    transform: scale(1.1,1.1);
+  }
+  50%  {
+    background-color: red;
+    transform: scale(1,1);
+  }
+  75%  {
+    background-color: red;
+    transform: scale(.9,.9);
+  }
+  100% {
+    background-color: red;
+    transform: scale(1,1);
+  }
+}
+
+.notify {
+  animation-name: notify-color;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+.notify .icon-box {
+  animation-name: notify-rotate;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes notify-rotate {
+  0%   {
+  }
+  25%  {
+    transform: rotate(-3deg);
+  }
+  50%  {
+    transform: rotate(0deg);
+  }
+  75%  {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
