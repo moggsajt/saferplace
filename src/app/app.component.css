@@ -1,0 +1,11 @@
+.emergency {
+  background-color: rgba(139,0,0,1);
+}
+
+.normal {
+  background-color: rgba(0,100,0,1);
+}
+
+.round {
+  border-radius: 5px;
+}

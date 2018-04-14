@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="header clearfix">
+    <h3 class="text-muted">A Safe Place</h3>
+  </div>
+
+  <div class="row emergency pt-4 round">
+
+    <safe-card *ngFor="let nav of navItemsEmergency"
+               [heading]="nav.title"
+               [text]="nav.text"
+               class="col-lg-6 col-md-6 mb-4">
+    </safe-card>
+  </div>
+  <div class="row normal pt-4 round">
+    <safe-card *ngFor="let nav of navItemsNormal"
+               [heading]="nav.title" [text]="nav.text"
+               class="col-lg-6 col-md-6 mb-4">
+    </safe-card>
+  </div>
+  <footer class="footer">
+    <p>Safer place inc.</p>
+  </footer>
+
+</div>

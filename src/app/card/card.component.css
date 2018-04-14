@@ -1,0 +1,11 @@
+.centerWrapper:before {
+  content:'';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center {
+  display:inline-block;
+  vertical-align: middle;
+}
