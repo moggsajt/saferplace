@@ -1,0 +1,347 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 140,
+                "InspireID": "ce592fe1-b33b-4f73-b7fb-052e560e4312",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "KUNGSHOLMEN",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.033039991084422,
+                    59.330833837646871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 60,
+                "InspireID": "4ca48763-9d95-4a92-b02e-f331e96bcdea",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "FARSTA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.08401943672142,
+                    59.258041452114604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 128,
+                "InspireID": "b9127917-a8bf-4d24-beaf-fd1b0cc8e676",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "KATARINA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.078074102638997,
+                    59.315425987142412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 281,
+                "InspireID": "e7b1eab7-ec6f-43eb-a50f-6bb00a2bcbc9",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Vaxholm",
+                "name": "VAXHOLM",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.33293372338478,
+                    59.40764060896479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 298,
+                "InspireID": "ad9b4804-192e-4bde-9587-516ab84b7163",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Huddinge",
+                "name": "VÅRBY - LINDVRETEN",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Södertörns brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.892433013338408,
+                    59.26352122199706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 536,
+                "InspireID": "40dc9d64-7bc7-42a7-b250-44017c022c23",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "BRÄNNKYRKA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.982414099745665,
+                    59.287566917460524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 181,
+                "InspireID": "6a7255ec-6851-42b5-b3f0-8628a069d594",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Nacka",
+                "name": "NACKA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Södertörns brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.155144736869516,
+                    59.308072201635127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 266,
+                "InspireID": "e1268f45-f6b8-4b2d-90c2-6e142302d9f7",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Täby",
+                "name": "TÄBY",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.076221723430979,
+                    59.434080679730293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 744,
+                "InspireID": "cd84275d-75ce-4c5f-8e90-1196d63a605f",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Sollentuna",
+                "name": "SOLLENTUNA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Brandkåren Attunda"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.924274812972371,
+                    59.45045023727306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 320,
+                "InspireID": "485c1038-de8c-4ab6-941c-75e5cb592b3c",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "ÖSTERMALM",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.085315272424353,
+                    59.340416627328374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 660,
+                "InspireID": "d732458c-6006-4810-b128-f8d84b86dfdc",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Lidingö",
+                "name": "LIDINGÖ",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.156557970191511,
+                    59.361005701089454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 745,
+                "InspireID": "d1eba839-94ad-4f63-b43e-fb6402d8df2c",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Solna",
+                "name": "SOLNA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.988264294372573,
+                    59.361837250875674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 813,
+                "InspireID": "550f6869-488d-4503-b737-2c193df0499f",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Värmdö",
+                "name": "VÄRMDÖ",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.426229904883588,
+                    59.31346897610036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 134,
+                "InspireID": "19452960-f7c1-4edb-b196-9b810096b10c",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "KISTA",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.939281683550117,
+                    59.405804456180782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 118,
+                "InspireID": "fafd60ab-b74a-46d7-8495-cf152dcb353b",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Stockholm",
+                "name": "JOHANNES",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.064858850246541,
+                    59.337520667047848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 476,
+                "InspireID": "058cf78a-07ef-47db-9d4b-51de196bc58a",
+                "beginLifes": "20170321",
+                "endLifeSpa": null,
+                "areaOfResp": "Vaxholm",
+                "name": "VAXHOLM",
+                "serviceTyp": "fireStation",
+                "pointOfCon": "MSB",
+                "note": "Storstockholms brandförsvarsförbund"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.33293372338478,
+                    59.40764060896479
+                ]
+            }
+        }
+    ]
+}
