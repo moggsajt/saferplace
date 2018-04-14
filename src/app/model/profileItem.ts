@@ -4,5 +4,8 @@ export class ProfileItem {
   phone_number: string;
   email: string;
   notes: string;
+  lat: string;
+  long: string;
+  dist: string;
   roles: RoleName[];
 }
