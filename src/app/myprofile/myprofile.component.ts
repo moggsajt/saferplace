@@ -26,26 +26,43 @@ export class MyprofileComponent implements OnInit {
 
   constructor() { }
 
-  navItemsProfiles: ProfileItem ;
+  navItemsProfiles: ProfileItem;
+  navItemsRoles: RoleName[];
 
   ngOnInit() {
     this.navItemsProfiles;
 
-    var x = new XMLHttpRequest();
-    x.open("GET", "http://hack4sweden.vwc.se/rest/person/1", true);
-
     var xThis = this;
-    x.onload = function(event) {
-      if (x.readyState == XMLHttpRequest.DONE || x.status == 200) {
-        var result = JSON.parse(x.responseText);
+
+    this.httpGet("http://hack4sweden.vwc.se/rest/roles", function(event) {
+      if (event.readyState == XMLHttpRequest.DONE || event.status == 200) {
+        var result = JSON.parse(event.responseText);
+
+        for (var key in result) {
+            var role = result[key];
+            xThis.navItemsRoles.push(role);
+          }
+    });
+
+    this.httpGet("http://hack4sweden.vwc.se/rest/person/1", function(event) {
+      if (event.readyState == XMLHttpRequest.DONE || event.status == 200) {
+        var result = JSON.parse(event.responseText);
 
         for (var key in result) {
           var profile = result[key];
           xThis.navItemsProfiles = profile;
         }
       }
-    };
+    });
 
+  }
+
+  httpGet(url, callback) {
+    var x = new XMLHttpRequest();
+    x.open("GET", url, true);
+    x.onload = function() {
+      callback(x);
+    };
     x.send();
   }
 
