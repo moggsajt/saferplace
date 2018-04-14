@@ -1,3 +1,5 @@
+import {RoleName} from "./roleName";
+
 export class ProfileItem {
   first_name: string;
   second_name: string;

@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { NgModule }         from '@angular/core';
-import { BrowserModule }    from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import {Component, OnInit} from '@angular/core';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 import {ProfileItem} from "../model/profileItem";
+import {RoleName} from "../model/roleName";
 
 @Component({
   selector: 'safe-myprofile',
@@ -19,38 +20,40 @@ import {ProfileItem} from "../model/profileItem";
   declarations: [
     MyprofileComponent,
   ],
-  bootstrap: [ MyprofileComponent ]
+  bootstrap: [MyprofileComponent]
 })
 
 export class MyprofileComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
-  navItemsProfiles: ProfileItem;
-  navItemsRoles: RoleName[];
+  profile: ProfileItem;
+  roles: RoleName[];
 
   ngOnInit() {
-    this.navItemsProfiles;
+    this.profile;
 
     var xThis = this;
 
-    this.httpGet("http://hack4sweden.vwc.se/rest/roles", function(event) {
+    this.httpGet("http://hack4sweden.vwc.se/rest/roles", function (event) {
       if (event.readyState == XMLHttpRequest.DONE || event.status == 200) {
         var result = JSON.parse(event.responseText);
 
         for (var key in result) {
-            var role = result[key];
-            xThis.navItemsRoles.push(role);
-          }
+          var role = result[key];
+          xThis.roles.push(role);
+        }
+      }
     });
 
-    this.httpGet("http://hack4sweden.vwc.se/rest/person/1", function(event) {
+    this.httpGet("http://hack4sweden.vwc.se/rest/person/1", function (event) {
       if (event.readyState == XMLHttpRequest.DONE || event.status == 200) {
         var result = JSON.parse(event.responseText);
 
         for (var key in result) {
           var profile = result[key];
-          xThis.navItemsProfiles = profile;
+          xThis.profile = profile;
         }
       }
     });
@@ -60,7 +63,7 @@ export class MyprofileComponent implements OnInit {
   httpGet(url, callback) {
     var x = new XMLHttpRequest();
     x.open("GET", url, true);
-    x.onload = function() {
+    x.onload = function () {
       callback(x);
     };
     x.send();

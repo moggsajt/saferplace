@@ -15,6 +15,7 @@ import { QuizComponent } from './sections/quiz/quiz.component';
 import { BadgesComponent } from './sections/badges/badges.component';
 import { BePreparedComponent } from './sections/be-prepared/be-prepared.component';
 import { AidComponent } from './sections/aid/aid.component';
+import { FormsModule }   from '@angular/forms';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AidComponent } from './sections/aid/aid.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
