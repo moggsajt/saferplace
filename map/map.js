@@ -5,14 +5,15 @@ var maxLat = 59.34974799075751,
     maxLon = 18.08382315168274,
     minLat = 59.32939528178513,
     minLon = 18.03708834180725,
-    map;
+    maxBounds = L.bounds([maxLat, maxLon], [minLat, minLon]),
+    map, eventPosition;
 
 $(function () {
     console.log("ready in map.js");
 
     // Center map at BirgerJarl
     map = L.map('map').setView([59.3415587, 18.0643464], 15)
-        .setMaxBounds([[maxLat, maxLon], [minLat, minLon]]);
+        .setMaxBounds(maxBounds);
     // Use GPS to center on device location
     //map.locate({ setView: true });
 
@@ -91,6 +92,7 @@ $(function () {
     $.getJSON('/api/krisinformation/event_1523691764.json', function (data) {
         L.geoJSON(data, {
             pointToLayer: function (feature, latlng) {
+                eventPosition = latlng;
                 return L.circle(latlng, eventRadius, { pane: 'tooltipPane' }).bindPopup(feature.properties.html, { maxHeight: 300 }).openPopup();
             }
         }).addTo(map);
