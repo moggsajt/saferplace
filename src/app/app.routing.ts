@@ -8,10 +8,12 @@ import {NavigateComponent} from "./sections/navigate/navigate.component";
 import {QuizComponent} from "./sections/quiz/quiz.component";
 import {BadgesComponent} from "./sections/badges/badges.component";
 import {BePreparedComponent} from "./sections/be-prepared/be-prepared.component";
+import {AidComponent} from "./sections/aid/aid.component";
 
 const routes: Routes = [
   {path: '', component: NavigationComponent},
   {path: 'alarms', component: AlarmsComponent},
+  {path: 'aid', component: AidComponent},
   {path: 'profile', component: MyprofileComponent},
   {path: 'poi', component: PoiComponent},
   {path: 'navigate', component: NavigateComponent},
@@ -39,4 +41,5 @@ export const routedComponents = [
   QuizComponent,
   BadgesComponent,
   BePreparedComponent,
+  AidComponent
 ];

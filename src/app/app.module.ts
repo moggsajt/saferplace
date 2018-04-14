@@ -14,6 +14,7 @@ import { NavigateComponent } from './sections/navigate/navigate.component';
 import { QuizComponent } from './sections/quiz/quiz.component';
 import { BadgesComponent } from './sections/badges/badges.component';
 import { BePreparedComponent } from './sections/be-prepared/be-prepared.component';
+import { AidComponent } from './sections/aid/aid.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { BePreparedComponent } from './sections/be-prepared/be-prepared.componen
     NavigateComponent,
     QuizComponent,
     BadgesComponent,
-    BePreparedComponent
+    BePreparedComponent,
+    AidComponent
   ],
   imports: [
     BrowserModule,
